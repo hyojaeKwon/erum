@@ -17,7 +17,7 @@ internal object StyleRegistry {
     fun get(style: Style): GeneratorStrategy {
         return when (style) {
             Style.KOREAN_GIVEN -> korean
-            Style.ENGLISH_NICKNAME -> english
+//            Style.ENGLISH_NICKNAME -> english
         }
     }
 }
